@@ -2,9 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  
   color: #424242; 
-
 }
 body{
   width: 100%;
@@ -17,7 +15,6 @@ body{
 .header{
   width: 100%;
   height: 100px;
-  background-color: #fff;
   background-size: cover;
 }
 .navbar{
@@ -26,6 +23,7 @@ body{
   top:0px;
   position: fixed; 
   z-index: 3;
+  background-color: #fff;
 }
 .logo{
   padding: 20px 20px;
@@ -44,7 +42,6 @@ a:link{
 a:hover{
   color: #99A994;
 }
-
 .navbar ul li{
   list-style-type: none;
   display: inline-block;
@@ -59,11 +56,9 @@ a:hover{
   z-index: 3;
 }
 
-
 /*  */
 /* BACKGROUND IMAGE AND TEXT */
 /*  */
-
 .index-container{
   display: inline-flex;
   flex-direction: row;
@@ -73,7 +68,6 @@ a:hover{
   width: 100%;
   height: 100vh;
 }
-
 .home-display{
   margin-top: 20px;
   margin-bottom: 10px;
@@ -87,23 +81,19 @@ a:hover{
   width: 70vw;
   position: relative; 
 }
-
 .text-wrapper{
   position: absolute;
    top: 45%;
    left: 60%;
    width: 40vw;
  }
-
 .text-wrapper h1{
  font-size: 3.5vw;
  width: 100%;
  letter-spacing: 8px;
  padding: 0 0 20px 0px;
  font-family: Bold 'Crimson Text', serif;
-
  }
-
 /* H2 with animation */
 .text-wrapper h2{
   font-size: 1.2vw;
@@ -118,12 +108,14 @@ a:hover{
   from {width: 0}
   to {width: 100%}
 }
-
 .pink-font{
   color: #E894A7; 
   letter-spacing: 8px;
 }
 
+/*  */
+/* BUTTON for next page */
+/*  */
 .bottom-right{
   position: absolute;
   top:78%;
@@ -142,7 +134,6 @@ a:hover{
   transition: 1s all ease; 
   z-index: 2;
 }
-
 .button::before{
   background: #FAC1D5;
   content: "";
@@ -155,8 +146,6 @@ a:hover{
   z-index: -2;
   transition: all 0.6s ease;
 }
-/* transform: translate(-65%, -70%) rotate(45deg); */
-
 .button:hover::before{
   height:600%
 }
@@ -178,39 +167,29 @@ a:hover{
   height: 30vh;
   width: 10vw;
   order: 1;
-  
-  /* justify-content: center; */
 }
-
 .social ul li{
   list-style-type: none;
   z-index: 3;
 }
-
 .socialbutton {
   display: inline-block;
   width: 50px;
   height: 50px;
   color: #424242;
   margin: 10px;
-  /* border-radius: 30%; */
-  /* box-shadow: 0 5px 15px -5px #00000070; */
   overflow: hidden;
   position: relative;
 }
-
 .socialbutton a {
     background: #424242;
 }
-
 .socialbutton i {
   line-height: 50px;
   margin-right: 12px;
   font-size: 18px;
   transition: 0.2s linear;
   color: #424242; 
-    /* width: 50px;
-    height: 50px; */
 }
 .socialbutton:hover i {
   color: #FAC1D5;
@@ -218,8 +197,6 @@ a:hover{
 .socialbutton::before {
   content: "";
   position: absolute;
-  /* width: 120%;
-  height: 120%; */
   width: 65px;
   height: 65px;
   background: transparent;
@@ -232,13 +209,11 @@ a:hover{
   top: -10%;
   left: -10%;
 }
-
 .logo img {
   width: 100px;
   float: left;
   height: auto;
 }
-
 #fixed-footer{
   text-align: center;
   background-color: #FFEDEB;
@@ -314,10 +289,8 @@ h2{
   letter-spacing: 8px;
   color: #424242; 
   font-family: 'PT Sans', sans-serif;
-  
 }
 h2:after{
-  
   position: relative;
   left:50%;
   bottom: 0;
@@ -325,7 +298,6 @@ h2:after{
   height: 4px;
   width: 50px;
   border-radius: 2px;
-
 }
 .field{
   width: 100%;
@@ -350,7 +322,6 @@ h2:after{
 .area{
   min-height: 150px;
 }
-
 .btn{
   width: 100%;
   padding: 0.5rem 1rem;
@@ -363,7 +334,6 @@ h2:after{
   transition: .3s;
   color: #bb2424; 
   font-family: 'PT Sans', sans-serif;
-  /* border-radius: 3rem; */
 }
 .btn:hover{
   background-color: #A1A9CF;
@@ -378,9 +348,9 @@ h2:after{
   }
 }
 
-
+/*  */
 /* ABOUT ME PAGE */
-
+/*  */
 .about-container{
   display: inline-flex;
   flex-direction: row;
@@ -390,17 +360,15 @@ h2:after{
   width: 100%;
   height: 100vh;
 }
-.about-me{
+.page-title{
   position: relative;
   height: 10vh;
   width: 30vw;
   left: 10%;
   top: 2.5%;
   z-index: 2;
- 
 }
-
-.about-me h3{
+.page-title h3{
   font-size: 3vw;
  letter-spacing: 4px;
  font-family:'Crimson Text', serif;
@@ -421,13 +389,12 @@ h2:after{
   letter-spacing: 2px;
  font-family: Bold 'Crimson Text', serif;
 }
-
 .profile-img{
   position: relative;
   height: 50vh;
   top: 25%;
-
 }
+
 /*  */
 /* ABOUT ME ANIMATION */
 /*  */
@@ -439,12 +406,6 @@ h2:after{
   overflow: hidden;
   position: relative;
 }
-
-/* .animation-container {
-  width: 1000rem;
-  height: 30rem;
-} */
-
 @keyframes fadeInOut {
   0% {
     opacity: 0;
@@ -471,7 +432,6 @@ h2:after{
     transform: none;
   }
 }
-
 .first-text {
   font-size: 4vw;
   position: absolute;
@@ -480,13 +440,10 @@ h2:after{
   opacity: 0;
   letter-spacing: 5px;
   animation-name: fadeInOut;
-  animation-duration: 17s;
+  animation-duration: 12s;
   color: #00341C;
-  font-family: 'Abril Fatface', cursive;
-
-  
+  font-family: 'Abril Fatface', cursive; 
 }
-
 .second-text {
   font-size: 2vw;
   position: absolute;
@@ -495,13 +452,11 @@ h2:after{
   opacity: 0;
   letter-spacing: 5px;
   animation-name: fadeInOut;
-  animation-delay: 3s;
-  animation-duration: 5s;
+  animation-delay: 1.5s;
+  animation-duration: 4s;
   color: #035F2C;
   font-family: 'Abril Fatface', cursive;
-
 }
-
 .third-text {
   font-size: 2vw;
   position: absolute;
@@ -510,13 +465,11 @@ h2:after{
   opacity: 0;
   letter-spacing: 5px;
   animation-name: fadeInOut;
-  animation-delay: 6s;
-  animation-duration: 5s;
+  animation-delay: 3s;
+  animation-duration: 4s;
   color: #074B2B;
   font-family: 'Abril Fatface', cursive;
-
 }
-
 .fourth-text {
   font-size: 2vw;
   position: absolute;
@@ -526,12 +479,10 @@ h2:after{
   color: #007A4D;
   letter-spacing: 5px;
   animation-name: fadeInOut;
-  animation-delay: 9s;
-  animation-duration: 5s;
+  animation-delay: 4.5s;
+  animation-duration: 3s;
   font-family: 'Abril Fatface', cursive;
-
 }
-
 .fifth-text {
   font-size: 12px;
   position: absolute;
@@ -540,7 +491,7 @@ h2:after{
   opacity: 0;
   color: #424242; 
   animation: fadeInUp 3s ease-in-out 0s forwards; 
-  animation-delay: 13s;
+  animation-delay: 8s;
   font-family: 'PT Sans', sans-serif;
 }
 
@@ -549,7 +500,6 @@ h2:after{
 /* BLOG POST */
 /*  */
 /*  */
-
 .blog-container{
   width: 100%;
   height: 40vh;
@@ -560,10 +510,8 @@ h2:after{
   padding: 15vw 1.5rem;
   margin: 10vh 0 10vh 100px;
   flex-direction: row;
-  flex-wrap: nowrap;
-  
+  flex-wrap: nowrap; 
 }
-
 .blog-post{
   width: 60%;
   max-width: 98rem;
@@ -572,34 +520,25 @@ h2:after{
   box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2);
   display: flex;
   align-items: center;
-
   border-radius: .5rem;
 }
 .blog-post-image{
-  /* min-width: 30rem; */
   max-width: 30rem;
-  /* height: 20rem; */
   transform: translateX(-8rem);
   position: relative;
-  /* box-shadow: .5rem .5rem 3rem 1px rgba(0, 0, 0, .05); */ */
- 
 }
-
 .blog-post-image img{
   width: 35vw;
   height: 100%;
   object-fit: contain;
   display: inline-block;
   border-radius: .5rem;
-
 }
-
 .blog-post-info{
   transform: translateX(-4rem);
   /* margin: 10px 0 10px 0; */
   position: relative;
 }
-
 .blog-post-date span{
   display: inline-block;
   color: #E894A7;
@@ -615,15 +554,12 @@ h2:after{
   color:  #00341C;
   font-family: 'Crimson Text', serif;
 }
-
 .blog-post-text{
   margin: 10px 0 10px 0;
   font-size: 1vw;
   color: #424242 ;
   font-family: 'PT Sans', sans-serif;
- 
 }
-
 .blog-post-link{
   display: inline-block;
   padding: 5px 5px;
@@ -635,6 +571,69 @@ h2:after{
   color: #424242;
   background-color:white;
   font-family: 'PT Sans', sans-serif;
+}
+
+/*  */
+/* ARTICLES PAGE */
+/*  */
+/* Using Grid formatting */
+.posts{
+  display: grid;
+  max-width: 1000px;
+  margin: 100px auto;
+  grid-template-columns: 1fr 3fr 14fr 3fr 1fr; 
+  grid-gap: 10px 50px;
+}
+.posts p{
+  line-height: 1.8;
+  font-family: 'PT Sans', sans-serif;
+}
+/* anchoring post to exclude last colums on each side */
+.posts > * {
+  grid-column: 3 / -3; 
+}
+.posts>figure{
+  margin: 10px;
+  grid-column: 2/-2;
+}
+.posts>blockquote{
+  margin: 0;
+  grid-column: 2/-2;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  margin: 0;
+}
+.side-link-right {
+  background: #fafafa;
+  padding: 10px;
+  grid-column: 4 /span 1;
+  font-size: 13px;
+  text-align: left;
+  border-left: 2px solid #E894A7;
+}
+.side-link-left{
+  background: #fafafa;
+  padding: 10px;
+  grid-column: 2 / span 1;
+  font-size: 13px;
+  text-align: right;
+  border-right: 2px solid #E894A7;
+}
+figure img{
+  max-width: 100%;
+}
+.posts >h5{
+  font-family: 'Crimson Text', serif;
+  font-size: 50px;
+  margin: 0;
+  grid-column: 2/-2;
+  text-align: center;
+}
+h6{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
+  margin: 10px 0 10px 0;
 }
 
 
