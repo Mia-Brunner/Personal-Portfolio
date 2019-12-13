@@ -122,7 +122,7 @@ a:hover{
   left:80%;
 }
 .button{
-  position: relative;
+  position: fixed;
   display: block;
   color: #424242; 
   font-size: 1em;
@@ -636,4 +636,132 @@ h6{
   margin: 10px 0 10px 0;
 }
 
+/*  */
+/* SKILLS */
+/*  */
+
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(105px, 1fr));
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  grid-auto-flow: row;
+  padding: 10px;
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
+
+.grid-item {
+  /* padding: 1rem; */
+  
+  background-color: transparent;
+ 
+  /* border-radius: 5px; */
+}
+
+.span-2{
+  grid-column-end: span 4;
+  grid-row-end: span 4;
+}
+.span-3 {
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+}
+.grid-item-1{
+  /* text-align: center; */
+  margin: 15vh 80px 0 80px;
+}
+.grid-item-1 p{
+  color: #929796;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing:1px;
+  text-align: center;
+  margin-top:10px;
+}
+.grid-item-2{
+  cursor: pointer;
+  display: flex;
+}
+.popup p{
+  color: #929796;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing:1px;
+  text-align: center;
+  margin-top:10px;
+}
+.popup i{
+  /* line-height:  15px; */
+  color:#929796;
+  text-align: center;
+}
+
+.grid-item-2:hover .popup{
+  background: #FFEDEB;
+  /* box-shadow: 0 0 0 1px #333; */
+  visibility: visible;
+  opacity: 1;
+  /* top: 100px;
+  right: 600px; */
+  width: 243px;
+  height:300px;
+}
+
+.grid-item-3{
+  background-color: #DED6C9;
+}
+.grid-item-4{
+  cursor: pointer;
+  display: flex;
+  right: 10px;
+}
+.grid-item-4:hover .popup{
+  background: #DCDCD9;
+  /* box-shadow: 0 0 0 1px #333; */
+  visibility: visible;
+  opacity: 1;
+  width: 17vw;
+ height:630px;
+
+}
+.grid-item-5{
+  background-color: #DCDCD9;
+}
+.grid-item-6{
+  cursor: pointer;
+  display: flex;
+}
+.grid-item-6:hover .popup{
+  background: #DED6C9;
+  /* box-shadow: 0 0 0 1px #333; */
+  visibility: visible;
+  opacity: 1;
+  width: 35vw;
+  height:320px;
+}
+.grid-item-7{
+  background-color: #FFEDEB;
+}
+
+.span-3 img{
+  max-height:;
+  max-width: 100%;
+
+}
+.popup{
+ position: absolute;
+ /* width: 60vh;
+ height:300px; */
+ background: white;
+ box-sizing: border-box;
+ padding: 20px;
+ /* border-radius: 4px; */
+ visibility: hidden;
+ opacity: 0;
+
+}
 
