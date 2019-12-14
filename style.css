@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color: #E2E2E2; 
+  color: rgb(216, 212, 212);; 
 }
 body{
   width: 100%;
@@ -34,7 +34,7 @@ body{
   line-height: 70px;
   
   padding: 20px 30px;
-  color: #E2E2E2; 
+  color: rgb(216, 212, 212);
   font-size: 13px;
   font-family: 'PT Sans', sans-serif;
   cursor: pointer;
@@ -133,13 +133,13 @@ label{
  letter-spacing: 8px;
  padding: 0 0 20px 0px;
  font-family: Bold 'Crimson Text', serif;
- color: #E2E2E2; 
+ color: rgb(216, 212, 212);
  
  }
 /* H2 with animation */
 .text-wrapper h2{
   font-size: 1.2vw;
-  color: #E2E2E2; 
+  color: rgb(216, 212, 212);
   letter-spacing: 10px;
   padding-top: 8px;
   overflow: hidden;
@@ -202,7 +202,7 @@ label{
 .button{
   position: fixed;
   display: block;
-  color: #FFFF; 
+  color: rgb(216, 212, 212); 
   font-size: 1em;
   font-family: 'PT Sans', sans-serif;
   text-decoration: none;
@@ -495,15 +495,15 @@ h2:after{
   position: relative;
   height: 10vh;
   width: 30vw;
-  left: 10%;
+  left: 5%;
   top: 12%;
   z-index: 2;
 }
 .page-title h3{
-  font-size: 3vw;
+  font-size: 4vw;
  letter-spacing: 4px;
- font-family:'Crimson Text', serif;
- color: #A6621C; 
+ font-family: italic 'Abril Fatface', cursive; 
+ color: gray;
 }
 .i-am {
   position: relative;
@@ -519,6 +519,7 @@ h2:after{
   font-size: 6vw;
   letter-spacing: 2px;
  font-family: Bold 'Crimson Text', serif;
+ color: #BB86FC;
 }
 .profile-img{
   position: relative;
@@ -589,7 +590,7 @@ h2:after{
   letter-spacing: 5px;
   animation-name: fadeInOut;
   animation-duration: 12s;
-  color: #FCECA4;
+  color: #D0CEE6;
   font-family: 'Abril Fatface', cursive; 
 }
 .second-text {
@@ -602,7 +603,7 @@ h2:after{
   animation-name: fadeInOut;
   animation-delay: 1.5s;
   animation-duration: 4s;
-  color: #DF9840;
+  color: #CCB5CD;
   font-family: 'Abril Fatface', cursive;
 }
 .third-text {
@@ -615,7 +616,7 @@ h2:after{
   animation-name: fadeInOut;
   animation-delay: 3s;
   animation-duration: 4s;
-  color: #925310;
+  color: #CCB5CD;
   font-family: 'Abril Fatface', cursive;
 }
 .fourth-text {
@@ -624,7 +625,7 @@ h2:after{
   bottom: 4rem;
   left: 50%;
   opacity: 0;
-  color: #A6621C;
+  color: #CCB5CD;
   letter-spacing: 5px;
   animation-name: fadeInOut;
   animation-delay: 4.5s;
@@ -637,7 +638,7 @@ h2:after{
   left: 20%;
   top: 25%;
   opacity: 0;
-  color: #E2E2E2; 
+  color: #D1BEB8; 
   animation: fadeInUp 3s ease-in-out 0s forwards; 
   animation-delay: 8s;
   font-family: 'PT Sans', sans-serif;
@@ -718,13 +719,13 @@ h2:after{
   margin: 1.5 0 2 rem;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #E2E2E2;
+  color: rgb(194, 190, 190);
   font-family: 'Crimson Text', serif;
 }
 .blog-post-text{
   margin: 10px 0 10px 0;
   font-size: 1vw;
-  color: #E2E2E2;
+  color: #A0A0A0;
   font-family: 'PT Sans', sans-serif;
 }
 .blog-post-link{
@@ -796,6 +797,7 @@ h2:after{
 .posts p{
   line-height: 1.8;
   font-family: 'PT Sans', sans-serif;
+  color: #A0A0A0;
 }
 /* anchoring post to exclude last colums on each side */
 .posts > * {
@@ -812,6 +814,7 @@ h2:after{
   font-style: italic;
   text-align: center;
   margin: 0;
+  color: rgb(194, 190, 190);
 }
 .side-link-right {
   background: #1F1F1F;
@@ -838,11 +841,13 @@ figure img{
   margin: 0;
   grid-column: 2/-2;
   text-align: center;
+  color: rgb(194, 190, 190);
 }
 h6{
   font-family: 'PT Sans', sans-serif;
   font-size: 15px;
   margin: 10px 0 10px 0;
+  color: rgb(194, 190, 190);
 }
 
 /*  */
@@ -903,7 +908,7 @@ h6{
   text-align: center;
 }
 .grid-item-2:hover .popup{
-  background: #FFEDEB;
+  background: #090D11;
   /* box-shadow: 0 0 0 1px #333; */
   visibility: visible;
   opacity: 1;
@@ -913,7 +918,7 @@ h6{
   height:280px;
 }
 .grid-item-3{
-  background-color: #DED6C9;
+  background-color: #040C21;
 }
 .grid-item-4{
   cursor: pointer;
@@ -921,7 +926,7 @@ h6{
   right: 10px;
 }
 .grid-item-4:hover .popup{
-  background: #DCDCD9;
+  background: #090D11;
   /* box-shadow: 0 0 0 1px #333; */
   visibility: visible;
   opacity: 1;
@@ -929,14 +934,14 @@ h6{
   height:280px;
 }
 .grid-item-5{
-  background-color: #DCDCD9;
+  background-color: #060D1A;
 }
 .grid-item-6{
   cursor: pointer;
   display: flex;
 }
 .grid-item-6:hover .popup{
-  background: #DED6C9;
+  background: #090D11;
   /* box-shadow: 0 0 0 1px #333; */
   visibility: visible;
   opacity: 1;
@@ -944,7 +949,7 @@ h6{
   height:300px;
 }
 .grid-item-7{
-  background-color: #FFEDEB;
+  background-color: #13121B;
 }
 .span-3 img{
   max-height:;
