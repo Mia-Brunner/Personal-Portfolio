@@ -496,18 +496,18 @@ h2:after{
   height: 10vh;
   width: 30vw;
   left: 10%;
-  top: 15%;
+  top: 12%;
   z-index: 2;
 }
 .page-title h3{
   font-size: 3vw;
  letter-spacing: 4px;
  font-family:'Crimson Text', serif;
- color: #F4B45D; 
+ color: #A6621C; 
 }
 .i-am {
   position: relative;
-  left: 10%;
+  left: 15%;
   top: 20%;
   z-index: 2;
   Height: 10vh;
@@ -522,8 +522,8 @@ h2:after{
 }
 .profile-img{
   position: relative;
-  height: 50vh;
-  top: 35%;
+  height: 70vh;
+  top: 15%;
   margin-left: 2%;
 }
 @media only screen and (max-width: 550px){
@@ -548,7 +548,7 @@ h2:after{
 .animation-box {
   width: 60%;
   height: 60vh;
-  background-color: rgb(24, 23, 23);
+  background-color:#000000;
   margin: 100px auto;
   overflow: hidden;
   position: relative;
@@ -589,7 +589,7 @@ h2:after{
   letter-spacing: 5px;
   animation-name: fadeInOut;
   animation-duration: 12s;
-  color: #00341C;
+  color: #FCECA4;
   font-family: 'Abril Fatface', cursive; 
 }
 .second-text {
@@ -602,7 +602,7 @@ h2:after{
   animation-name: fadeInOut;
   animation-delay: 1.5s;
   animation-duration: 4s;
-  color: #035F2C;
+  color: #DF9840;
   font-family: 'Abril Fatface', cursive;
 }
 .third-text {
@@ -615,7 +615,7 @@ h2:after{
   animation-name: fadeInOut;
   animation-delay: 3s;
   animation-duration: 4s;
-  color: #074B2B;
+  color: #925310;
   font-family: 'Abril Fatface', cursive;
 }
 .fourth-text {
@@ -624,7 +624,7 @@ h2:after{
   bottom: 4rem;
   left: 50%;
   opacity: 0;
-  color: #007A4D;
+  color: #A6621C;
   letter-spacing: 5px;
   animation-name: fadeInOut;
   animation-delay: 4.5s;
@@ -637,7 +637,7 @@ h2:after{
   left: 20%;
   top: 25%;
   opacity: 0;
-  color: #424242; 
+  color: #E2E2E2; 
   animation: fadeInUp 3s ease-in-out 0s forwards; 
   animation-delay: 8s;
   font-family: 'PT Sans', sans-serif;
@@ -672,7 +672,7 @@ h2:after{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: white;
+  background-color: #000000;
   padding: 15vw 1.5rem;
   margin: 10vh 0 10vh 100px;
   flex-direction: row;
@@ -682,8 +682,8 @@ h2:after{
   width: 60%;
   max-width: 98rem;
   height: 30vh;
-  background-color: white;
-  box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2);
+  background-color:#000000;
+  box-shadow: 0 1.4rem 8rem rgba(95, 92, 92, 0.2);
   display: flex;
   align-items: center;
   border-radius: .5rem;
@@ -707,7 +707,7 @@ h2:after{
 }
 .blog-post-date span{
   display: inline-block;
-  color: #E894A7;
+  color: #F4B45D;
   font-size: 1vw;
   font-weight: 600;
   margin: .5rem 0;
@@ -716,14 +716,15 @@ h2:after{
 .blog-post-title{
   font-size: 1.5vw;
   margin: 1.5 0 2 rem;
+  letter-spacing: 3px;
   text-transform: uppercase;
-  color:  #00341C;
+  color: #E2E2E2;
   font-family: 'Crimson Text', serif;
 }
 .blog-post-text{
   margin: 10px 0 10px 0;
   font-size: 1vw;
-  color: #424242 ;
+  color: #E2E2E2;
   font-family: 'PT Sans', sans-serif;
 }
 .blog-post-link{
@@ -735,7 +736,7 @@ h2:after{
   text-transform: uppercase;
   font-size: 1.5vh;;
   color: #424242;
-  background-color:white;
+  background-color: #F4B45D;
   font-family: 'PT Sans', sans-serif;
 }
 
@@ -813,20 +814,20 @@ h2:after{
   margin: 0;
 }
 .side-link-right {
-  background: #fafafa;
+  background: #1F1F1F;
   padding: 10px;
   grid-column: 4 /span 1;
   font-size: 13px;
   text-align: left;
-  border-left: 2px solid #E894A7;
+  border-left: 2px solid #F4B45D;
 }
 .side-link-left{
-  background: #fafafa;
+  background: #1F1F1F;
   padding: 10px;
   grid-column: 2 / span 1;
   font-size: 13px;
   text-align: right;
-  border-right: 2px solid #E894A7;
+  border-right: 2px solid #F4B45D; 
 }
 figure img{
   max-width: 100%;
