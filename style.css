@@ -168,7 +168,6 @@ label{
 @media only screen and (max-width: 700px){
   .display-img{
     width: 90vw;
-    position: block;
     margin: 30px 10px;
   }
   .text-wrapper{
@@ -182,8 +181,6 @@ label{
     letter-spacing: 5px;
   }
   .text-wrapper h2{
-    font-size: 12px;
-    animation: none;
     letter-spacing: 3px;
   }
   .pink-font{
@@ -242,9 +239,6 @@ label{
   .bottom-right{
     top: 90%;
     left: 60%;
-  }
-  .button::before{
-    display: none;
   }
   .button{
     border: 1px solid #424242;
@@ -467,13 +461,6 @@ h2:after{
 @media screen and (max-width:600px){
   .container{
     padding: 60px 50px;
-  }
-  .contact-box{
-    grid-template-columns: 1fr;
-    margin-top:20px;
-  }
-  .left{
-    height: 200px;
   }
 }
 
