@@ -80,10 +80,16 @@ From endlessley looking throughout pinterest for style ideas, I came up with the
 
 ### Screenshots
 
+I originally started planning out my home page and concept without code to gain a general idea of the layout I wanted. I knew that I wanted a fixed navigation bar at the top, with my name on the left hand side linking back to the home page. The other menu items on the right hand side needed to have a minimal look and be able to convert to a burger menu for smaller screen sizes. Another component that I also wanted was the fixed side bar for icons which would remain there at all screen sizes. 
+
+A style that I enjoyed seeing while I was exploring my options was having text over the images and not separated from them. This led me to look into CSS components such as negative margins and transform/translate structures so that I could go over the margins and into the next flex. 
 
 ![Screenshot of initial draft](/docs/screenshots/initial.png)
 
+The image below shows all the fixed structures that I would have on every web page. 
+
 ![Screenshot of layout idea](/docs/screenshots/original-layout-idea.png)
+
 
 ![Screenshots of master document](/docs/screenshots/pc-final-group.png)
 
