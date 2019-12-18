@@ -482,7 +482,7 @@ h2:after{
   height: 10vh;
   width: 30vw;
   left: 10%;
-  top: 15%;
+  top: 10%;
   z-index: 2;
 }
 .page-title h3{
@@ -574,7 +574,7 @@ h2:after{
   opacity: 0;
   letter-spacing: 5px;
   animation-name: fadeInOut;
-  animation-duration: 12s;
+  animation-duration: 10s;
   color: #00341C;
   font-family: 'Abril Fatface', cursive; 
 }
@@ -620,27 +620,57 @@ h2:after{
 .fifth-text {
   font-size: 12px;
   position: absolute;
-  left: 20%;
-  top: 25%;
+  left: 10%;
+  top: 10%;
   opacity: 0;
-  color: #424242; 
   animation: fadeInUp 3s ease-in-out 0s forwards; 
-  animation-delay: 8s;
+  animation-delay: 6s;
+  color: #929796;
   font-family: 'PT Sans', sans-serif;
+  font-size: 13px;
+  line-height: 1.2;
+  letter-spacing:1px;
+  margin-right: 50px;
+
+}
+@media only screen and (max-width: 800px){
+  .animation-box{
+height: 100vh;
+  }
+  .second-text{
+    top: 50%;
+    left: 10%;
+  }
+  .third-text{
+    left: 5rem;
+    top: 60%;
+  }
+  .fourth-text{
+    bottom: 30%;
+  left: 10%;
+  }
 }
 @media only screen and (max-width: 550px){
+  .animation-box{
+    height: 130vh;
+    margin-left:-150px;
+    width: 80%;
+      }
+ 
 .second-text{
   font-size: 16px;
   letter-spacing: 2px;
+  top: 30%;
 }
 .third-text{
   font-size: 16px;
   letter-spacing: 2px;
+  top: 40%;
 }
 .fourth-text{
   font-size: 16px;
   letter-spacing: 2px;
-  left: 30%;
+  top: 50%;
 }
 .first-text{
   letter-spacing: 2px;
@@ -867,7 +897,7 @@ h6{
   line-height: 1.8;
   letter-spacing:1px;
   text-align: center;
-  margin-top:10px;
+  margin-top:0px;
 }
 .grid-item-2{
   cursor: pointer;
