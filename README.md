@@ -2,9 +2,9 @@
 _______
 
 #### Published Porftolio Website:
-
+https://modest-cray-86f927.netlify.com/index.html
 #### GitHub Repository:
-
+https://github.com/Mia-Brunner/Personal-Portfolio 
 ### Purpose 
 
 The purpose of this assignment is to create a portfolio in the form of a website that can be used as a resource for potential employers during my job application process in the tech industry. This Portfolio provides a reference of my skills as a web developer, along with my work and study history. Unlike a generic resume, this portfolio will be able to portray my personality and interests through my choice of colours, aesthetics and styling throughout the website. This portfolio will also convey my current skillsets in creating a responsive website by using the tech stack of HTML and CSS. 
@@ -90,12 +90,19 @@ The image below shows all the fixed structures that I would have on every web pa
 
 ![Screenshot of layout idea](/docs/screenshots/original-layout-idea.png)
 
+This is the final screenshot of all my web pages. You can see a consistent theme throughout all pages as it uses the same components, text design and colours. This unifies the entire website and creates the effect of a clean and minimal style.
 
 ![Screenshots of master document](/docs/screenshots/pc-final-group.png)
 
+These images are screenshots of the mobile version of my website. As you can see changes have been made to the layout such as the navigation bar being altered to a drop down burger menu. The side icons have a reduced left-side margin bringing it closer to the lefts side of the page. The Footer has also been removed as it's height would be large on a smaller scale such as mobile. 
+
 ![Screenshots of master document mobile version](/docs/screenshots/mobile-final-group.png)
 
+The below images consist of my dark mode branch. The main changes to create this look are adjusting the colours to deep greys and blacks with contrasting text colours to achieve a minimal ans sleek design. Images and font styles have also been adjusted to reflect the mood of the website.
+
 ![Screenshots of dark-mode document](/docs/screenshots/pc-dark-mode.png)
+
+These images below follows the concept of modern design for my second branch. I have altered the home page so that the main component is the background image which also follows through to the rest of the pages. As the background image consisted of numerous colours I had to create a background area for the text for it to be more visible. As a block background colour would reduce the impact of the background image I instead decided to reduce the transparency, allowing the image to be partially visible and also the text more defined. This also follows the dark mode theme with minor changes being made to its images. 
 
 ![Screenshots of modern-design document](/docs/screenshots/pc-modern-design.png)
 
@@ -105,7 +112,7 @@ The image below shows all the fixed structures that I would have on every web pa
 - The final target audience is current or aspiring web developers. Once this website is completed and finalised in the near future I would love to use this porfolio as a form of inspiration for other aspiring students who wish to create their own portfolio based website.
 
 ### Tech Stack
-HTML-5
-CSS-3
-GitHub
-Netlify
+- HTML-5
+- CSS-3
+- GitHub
+- Netlify
