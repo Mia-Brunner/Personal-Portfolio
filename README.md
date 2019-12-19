@@ -31,7 +31,7 @@ A second branch was created for dark-mode allowing for a contrast in concept and
 The use of low saturated colours such as light greys were applied to all texts and icons to ease the readability for users. If a high contrast colour was applied such as a white over a black background, it would be too sharp for the eyes making it more difficult to read for longer periods of time. 
 
 ### Sitemap
-![Sitemap](/docs/ReadMe-docs/sitemap.png)
+![Sitemap](/docs/ReadMe-docs/Sitemap.png)
 
 #### Home Page
 The home page is purely meant as an introduction with an added welcome animation using blink-caret to entice the user to delve deeper into the website. A large image of a flower fills half of the body space setting the theme for the rest of the website. An 'enter' button eases accessibility and navigation into the rest of the website. The home page uses flex. 
@@ -70,7 +70,7 @@ Sidebar links for my profiles in LinkedIn and GitHub are accessible on every pag
 ### Wireframes
 Each page of this website encompasses a similar layout due to the static header, footer and side bar. These allow each page to have a similar aesthetic and creates an easy flow from one page to another. Any changes were only conducted within the main body of the page. 
 
-![wireframe](/docs/ReadMe-docs/wireframe.png)
+![wireframe](/docs/ReadMe-docs/Wireframe.png)
 
 ### Mood Board
 
