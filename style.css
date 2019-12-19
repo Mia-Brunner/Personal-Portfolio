@@ -290,21 +290,8 @@ label{
 .socialbutton:hover i {
   color: #FAC1D5;
 }
-.socialbutton::before {
-  content: "";
-  position: absolute;
-  width: 65px;
-  height: 65px;
-  background: transparent;
-  transform: rotate(45deg);
-  left: -110%;
-  top: 90%;
-}
-.socialbutton:hover::before {
-  animation: socialanimation 0.7s 1;
-  top: -10%;
-  left: -10%;
-}
+
+/* Logo Image  */
 .logo img {
   width: 100px;
   float: left;
@@ -316,6 +303,9 @@ label{
     margin-left: 0px;
   }
 }
+/*  */
+/* footer */
+/*  */
 
 #fixed-footer{
   text-align: center;
